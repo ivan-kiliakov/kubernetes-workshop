@@ -1,0 +1,5 @@
+kubectl describe pods
+
+kubectl set image deployments/kubernetes-bootcamp kubernetes-bootcamp=docker.io/jocatalin/kubernetes-bootcamp:v2
+
+kubectl rollout status deployments/kubernetes-bootcamp

@@ -1,0 +1,9 @@
+kubectl get deployments
+
+kubectl get pods
+
+kubectl delete pod
+
+kubectl port-forward board-export-service-7486cb55-jlblk 7777:7777
+
+kubectl exec -ti board-export-service-7486cb55-jlblk -c board-export-service -- bash

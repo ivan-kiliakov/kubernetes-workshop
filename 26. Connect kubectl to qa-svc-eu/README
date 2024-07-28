@@ -1,0 +1,5 @@
+https://miro.atlassian.net/wiki/spaces/PT/pages/2738356542/Runbook+Access+EKS+clusters+Dex
+
+https://dex-login.qa-svc.testmiro.com/
+
+kubectl config set-context --current --namespace=enterprise-ediscovery

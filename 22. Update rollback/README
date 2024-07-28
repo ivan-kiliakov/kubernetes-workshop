@@ -1,0 +1,7 @@
+kubectl set image deployments/kubernetes-bootcamp kubernetes-bootcamp=gcr.io/google-samples/kubernetes-bootcamp:v10
+
+kubectl get pods
+
+kubectl describe pods
+
+kubectl rollout undo deployments/kubernetes-bootcamp

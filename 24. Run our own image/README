@@ -1,0 +1,8 @@
+https://miro.com/app/board/uXjVK0DhiKQ=/?moveToWidget=3458764594217488386&cot=14
+git clone git@github.com:demansh/docker-ws.git
+
+docker build -t workshop-apache-ubuntu:0.0.1 .
+
+minikube image load workshop-apache-ubuntu:0.0.1
+
+minikube image ls --format table

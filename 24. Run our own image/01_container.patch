@@ -1,0 +1,14 @@
+Index: 01_container/Dockerfile
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/01_container/Dockerfile b/01_container/Dockerfile
+--- a/01_container/Dockerfile	(revision aa83340aec7b71c7ede0fd7bda19f7003c319fa4)
++++ b/01_container/Dockerfile	(date 1722108709636)
+@@ -9,4 +9,4 @@
+
+ COPY index.html /var/www/html/index.html
+
+-CMD ["sh", "-c", "service apache2 start && bash"]
++CMD ["sh", "-c", "service apache2 start; sleep infinity"]

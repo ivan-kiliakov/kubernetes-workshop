@@ -1,0 +1,6 @@
+(optional) brew install minikube
+(optional) brew install kubectl
+
+minikube start
+
+kubectl events

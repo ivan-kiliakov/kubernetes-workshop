@@ -1,0 +1,5 @@
+In a separate terminal: kubectl proxy
+
+kubectl get pods
+
+http://localhost:8001/api/v1/namespaces/default/pods/{pod}:8080/proxy/
