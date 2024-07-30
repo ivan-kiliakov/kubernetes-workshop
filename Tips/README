@@ -12,3 +12,5 @@ kubectl get services
 kubectl describe services
 
 kubectl get rs
+
+minikube dashboard
